@@ -12,7 +12,8 @@ import {
   TailwindShade,
 } from "./types";
 
-const tailwindMapper: TailwindMapper = tailwindMapperData as TailwindMapper;
+const tailwindMapper: TailwindMapper =
+  tailwindMapperData as unknown as TailwindMapper;
 
 // Constants
 const VALID_COLORS: readonly TailwindColor[] = [

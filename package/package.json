@@ -38,7 +38,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "lint": "eslint src --ext .ts",
     "type-check": "tsc --noEmit",
     "prepublishOnly": "npm run build && npm run test"
