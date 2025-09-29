@@ -1,6 +1,6 @@
 {
   "name": "tailwind-color-mapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "OKLCH-first Tailwind color mapping utilities with comprehensive format support",
   "main": "dist/index.cjs",
